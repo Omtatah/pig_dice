@@ -6,12 +6,12 @@
     text-align: center;
 }
 .row{
-    background-color: #FFC0CB;
+    background-color: #DB7093;
 }
-.col-md-5{
+.col-md-4{
     border: 2px solid red;
-    padding-left: 80px;
-    padding-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: white;
@@ -26,7 +26,7 @@ p{
 .righty{
     padding-left: 60px;
 }
-.col-md-1{
+.col-md-2{
     border: 2px solid red;
     padding-top: 250px;
     padding-right: 30px;
@@ -39,4 +39,16 @@ p{
 }
 .all{
     border:2px solid black;
+}
+.b_rules{
+    border: 2px solid red;
+    padding-left: 40px;
+}
+.b_history{
+    border: 2px solid red;
+    padding-left: 40px;
+}
+.buttons{
+    border: 2px solid red;
+    padding-left: 85px;
 }
