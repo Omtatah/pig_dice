@@ -25,13 +25,18 @@ h4 {
 }
 
 .anchors {
-    border: 2px solid black;
+    border: 2px solid #FFC0CB;
+    padding: 5px;
 }
 
 .container {
     padding-top: 200px;
 }
 
-/* .black{
-    color: #FFC0CB;
-} */
+.btn{
+    background-color: black;
+    color: white;
+}
+#righty{
+    margin-right: 150px;
+}
