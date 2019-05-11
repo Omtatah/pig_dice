@@ -2,12 +2,37 @@
     display: none;
 } */
 
-.h1 {
+#col-md-8-r{
+    font-family: 'courier new';
+}
+
+h1 {
     text-align: center;
+    font-family: 'Helvetica Neue';
+    color: #212529;
+}
+h2 {
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    color: white;
+}
+#behold{
+    color: #212529;
+}
+h3 {
+    text-align: center;
+    font-family: 'Helvetica Neue'
+}
+h4 {
+    text-align: center;
+    font-family: 'Helvetica Neue';
+    font-size: 44px;
+    color: white;
 }
 .row{
-    background-color: #DB7093;
+    background-color: #DAB4AB;
 }
+
 .col-md-4{
     border: 2px solid red;
     padding-left: 55px;
@@ -16,7 +41,10 @@
     padding-top: 10px;
     background-color: white;
 }
-p{
+#l_rules{
+    text-align: center;
+}
+#l_history{
     text-align: center;
 }
 .btn{
@@ -30,6 +58,7 @@ p{
     border: 2px solid red;
     padding-top: 250px;
     padding-right: 30px;
+    text-align: center;
 }
 .container{
     padding-left:0px;
