@@ -2,42 +2,49 @@
     display: none;
 } */
 
-#col-md-8-r{
+#col-md-8-r {
     font-family: 'courier new';
     display: none;
 }
-#col-md-8-h{
+
+#col-md-8-h {
     font-family: 'courier new';
     display: none;
 }
+
 h1 {
     text-align: center;
     font-family: 'Helvetica Neue';
     color: #212529;
 }
+
 h2 {
     text-align: center;
     font-family: 'Helvetica Neue';
     color: white;
 }
-#behold{
+
+#behold {
     color: #212529;
 }
+
 h3 {
     text-align: center;
     font-family: 'Helvetica Neue'
 }
+
 h4 {
     text-align: center;
     font-family: 'Helvetica Neue';
     font-size: 44px;
     color: white;
 }
-.row{
+
+.row {
     background-color: #DAB4AB;
 }
 
-.col-md-4{
+.col-md-4 {
     border: 2px solid red;
     padding-left: 55px;
     padding-right: 55px;
@@ -45,50 +52,62 @@ h4 {
     padding-top: 10px;
     background-color: white;
 }
-#l_rules{
+
+#l_rules {
     text-align: center;
 }
-#l_history{
+
+#l_history {
     text-align: center;
 }
-.btn{
+
+.btn {
     background-color: black;
     color: white;
 }
-.righty{
+
+.righty {
     padding-left: 60px;
 }
-.col-md-2{
+
+.col-md-2 {
     border: 2px solid red;
     padding-top: 22%;
     /* padding-bottom: 10%; */
     /* padding-right: 30px; */
     text-align: center;
 }
-.container{
-    padding-left:0px;
-    padding-right:0px;
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
     margin: 0px;
-    margin-right:0px;
+    margin-right: 0px;
 }
-.all{
-    border:2px solid black;
+
+.all {
+    border: 2px solid black;
 }
-.b_rules{
+
+.b_rules {
     border: 2px solid red;
     padding-left: 40px;
 }
-.b_history{
+
+.b_history {
     border: 2px solid red;
     padding-left: 40px;
 }
-.buttons{
+
+.buttons {
     border: 2px solid red;
     padding-left: 85px;
 }
-.g_portal_1{
+
+.g_portal_1 {
     display: none;
 }
-.g_portal_2{
+
+.g_portal_2 {
     display: none;
 }
