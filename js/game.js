@@ -104,7 +104,7 @@ function rollAgain1() {
     var rollStatus1 = document.getElementById('rollStatus1');
     rollStatus1.innerHTML = parseFloat(number) + parseFloat(otherNumber);
     faceStatus1.innerHTML = otherNumber;
-    totalStatus1.innerHTML = rollStatus2.innerHTML;
+    totalStatus1.innerHTML = rollStatus1.innerHTML;
     if (otherNumber === 1) {
         alert('Too bad, you rolled 1 so you get no points.');
         hold();
@@ -123,7 +123,7 @@ function rollAgain1() {
     }
 }
 function hold_1() {
-    var number = document.getElementById('rollStatus2').innerHTML;
+    var number = document.getElementById('rollStatus1').innerHTML;
     totalStatus1.innerHTML = parseFloat(number);
     $(document).ready(function () {
         $('inactive2').show();
