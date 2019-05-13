@@ -30,8 +30,8 @@ $(document).ready(function () {
         $('.g_portal_2').hide();
     })
 })
-    $('#demo').append('hi')
-function rollDiceOne(number) {
+    
+function rollDice(number) {
     var randomNumberOne = function () {
         var number = Math.floor(Math.random() * 6) + 1;
         alert(number);

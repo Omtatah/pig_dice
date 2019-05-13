@@ -101,7 +101,14 @@ h4 {
     padding-left: 25%;
     padding-right: 25%;
 }
-
+.rolex{
+    width: 32px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+    border: #999 1px solid;
+}
 .b_rules {
     /* border: 2px solid red; */
     padding-left: 40px;

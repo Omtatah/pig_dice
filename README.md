@@ -1,5 +1,5 @@
 # Pig Dice Project
-https://mbuguamwaura.github.io/pig-dice/
+https://omtatah.github.io/pig-dice/
 
 This is a web game called pig dice where two players compete to reach 100 points first. Each player gets a turn to roll the dice and 
 chooses when to hold their scores or try their luck to accumulater as many points without getting a 1 which resets their current scores
