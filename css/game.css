@@ -69,6 +69,15 @@ h4 {
 .portrayed {
     border: red solid 2px;
     padding-left: 80px;
+    display: none;
+}
+
+#rA {
+    display: none;
+}
+
+#rA_1 {
+    display: none;
 }
 
 /* .righty {
@@ -101,7 +110,8 @@ h4 {
     padding-left: 25%;
     padding-right: 25%;
 }
-.rolex{
+
+.rolex {
     width: 32px;
     padding: 10px;
     font-size: 24px;
@@ -109,6 +119,7 @@ h4 {
     margin: 5px;
     border: #999 1px solid;
 }
+
 .b_rules {
     /* border: 2px solid red; */
     padding-left: 40px;
@@ -122,6 +133,19 @@ h4 {
 .buttons {
     /* border: 2px solid red; */
     padding-left: 85px;
+}
+
+.buttons_inactive {
+    /* border: 2px solid red; */
+    padding-left: 85px;
+}
+
+#active2 {
+    display: none;
+}
+
+#inactive1 {
+    display: none;
 }
 
 .g_portal_1 {

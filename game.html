@@ -132,7 +132,7 @@
                                 </div>
                                 <div class='total_points' id='total_points_1'>
                                     <h3>Total Points:</h3>
-                                    <div class='rolex' id='total_status_1'></div>
+                                    <div class='rolex' id='total_status_1'>0</div>
                                 </div>
                                 <div class='portrayed' id='wavy_1'>
                                     <img src="images/WavyLimpingKiwi.webp" alt="dice roll"
@@ -162,19 +162,24 @@
                                 </div>
                                 <div class='face_rolled' id='face_1'>
                                     <h3>Face Rolled:</h3>
-                                    <div class='rolex' id='rolex_1'></div>
+                                    <div class='rolex' id='rolex_1'>0</div>
                                 </div>
                                 <div class='roll_points' id='roll_points_1'>
                                     <h3>Roll Points:<span id='roll_status_1'></h3>
-                                    <div class='rolex' id='rolex_1'></div>
+                                    <div class='rolex' id='rolex_1'>0</div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <br>
-                    <div class='buttons'>
-                        <button class="btn" onclick="rollDiceOne()">ROLL</button>
+                    <div class='buttons' id='active1'>
+                        <button class="btn" id='rD_1' onclick="rollDice1()">ROLL</button>
+                        <button class="btn" id='rA_1' onclick="rollAgain()">ROLL</button>
                         <button class="btn">HOLD</button>
+                    </div>
+                    <div class='buttons_inactive' id='inactive1'>
+                        <button class="btn" onclick="rollDiceOne()" disabled>ROLL</button>
+                        <button class="btn" disabled>HOLD</button>
                     </div>
                 </div>
                 <div class='col-md-4'>
@@ -185,7 +190,7 @@
                             </div>
                             <div class='total_points' id='total_points_2'>
                                 <h3>Total Points:</h3>
-                                <div class='rolex' id='total_status_2'></div>
+                                <div class='rolex' id='totalStatus2'>_</div>
                             </div>
                             <div class='portrayed' id='wavy_2'>
                                 <img src="images/WavyLimpingKiwi.webp" alt="dice roll"
@@ -215,16 +220,22 @@
                             </div>
                             <div class='face_rolled' id='face_2'>
                                 <h3>Face Rolled:</h3>
-                                <div class='rolex' id='face_status_2'></div>
+                                <div class='rolex' id='faceStatus2'>0</div>
                             </div>
                             <div class='roll_points' id='roll_points_2'>
                                 <h3>Roll Points:</h3>
-                                <div class='rolex' id='roll_status_2'></div>
+                                <div class='rolex' id='rollStatus2'>0</div>
                             </div>
                             <br>
-                            <div class='buttons'>
-                                <button class="btn" onclick="rollDice()">ROLL</button>
-                                <button class="btn">HOLD</button>
+                            <div class='buttons' id='active2'>
+                                <button class="btn" id='rD' onclick="rollDice()">ROLL</button>
+                                <button class="btn" id='rA' onclick="rollAgain()">ROLL</button>
+                                <button class="btn" id='hold2' onclick="hold()">HOLD</button>
+                            </div>
+                            <div class='buttons_inactive' id='inactive2'>
+                                <button class="btn" id='rD' onclick="rollDice()" disabled>ROLL</button>
+                                <button class="btn" id='rA' onclick="rollAgain()" disabled>ROLL</button>
+                                <button class="btn" onclick="hold_1()" disabled>HOLD</button>
                             </div>
                         </div>
                     </div>
