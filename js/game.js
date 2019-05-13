@@ -30,3 +30,26 @@ $(document).ready(function () {
         $('.g_portal_2').hide();
     })
 })
+    $('#demo').append('hi')
+function rollDiceOne(number) {
+    var randomNumberOne = function () {
+        var number = Math.floor(Math.random() * 6) + 1;
+        alert(number);
+        if (randomNumberOne() === 1) {
+            document.getElementById("face_status_1").innerHTML = "1";
+        } else if (randomNumberOne() === 2) {
+            document.getElementById("face_status_1").innerHTML = "1";
+        } else if (randomNumberOne() === 3) {
+            document.getElementById("face_status_1").innerHTML = "1";
+        } else if (randomNumberOne() === 4) {
+            document.getElementById("face_status_1").innerHTML = "1";
+        } else if (randomNumberOne() === 5) {
+            document.getElementById("face_status_1").innerHTML = "1";
+        } else if (randomNumberOne() === 6) {
+            document.getElementById("face_status_1").innerHTML = "1";
+        } else {
+            alert('Dice is chipped')
+        }
+    }
+    alert('hi')
+}

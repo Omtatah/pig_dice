@@ -65,16 +65,20 @@ h4 {
     background-color: black;
     color: white;
 }
-.portrayed{
+
+.portrayed {
     border: red solid 2px;
     padding-left: 80px;
 }
+
 /* .righty {
     padding-left: 60px;
 } */
-.player_head{
+
+.player_head {
     border: 2px red solid;
 }
+
 .col-md-2 {
     /* border: 2px solid red; */
     padding-top: 22%;
@@ -90,8 +94,12 @@ h4 {
     margin-right: 0px;
 }
 
-.all {
-    /* border: 2px solid black; */
+.footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #DAB4AB;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .b_rules {
